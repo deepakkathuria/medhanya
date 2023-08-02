@@ -19,7 +19,7 @@ const ContactUs = () => {
           <h2 className="text-gray-900 text-2xl mb-4 font-semibold text-center">
             Contact Us
           </h2>
-          <Fade bottom cascade>
+          {/* <Fade bottom cascade> */}
             <div className="relative mb-2">
               <label htmlFor="name" className="leading-7 text-sm text-gray-600">
                 Name
@@ -72,7 +72,7 @@ const ContactUs = () => {
             <p className="text-xs text-gray-500 mt-3 text-center">
               {isFormFocused ? "Form is focused!" : ""}
             </p>
-          </Fade>
+          {/* </Fade> */}
         </div>
       </div>
     </section>
