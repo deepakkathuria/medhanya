@@ -7,10 +7,7 @@ const navigation = [
   { name: "About Us", href: "/about-us", current: false },
   { name: "Our Products", href: "/products", current: false },
   { name: "Vision Mission", href: "/vision", current: false },
-
-  // { name: "Vision/Mission", href: "#", current: false },
   { name: "Contact Us", href: "/contact-us", current: false },
-
 ];
 
 function classNames(...classes) {
@@ -22,10 +19,10 @@ export default function Nav() {
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
+          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                {/* Mobile menu button*/}
+                {/* Mobile menu button */}
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
@@ -42,84 +39,84 @@ export default function Nav() {
                     src="https://res.cloudinary.com/dbb7g0jqa/image/upload/v1690470496/logo_mcwbgh.png"
                     alt="Your Company"
                   />
-                  {/* <h2 className="text-xl font-bold text-white ml-2">
-                    Medhanya
-                  </h2> */}
                 </div>
-                <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current
-                            ? "bg-white text-black"
-                            : "text-white hover:bg-gray-700 hover:text-white",
-                          "rounded-md px-3 py-2 text-sm font-medium"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
-                        {item.name}
-                      </a>
-                    ))}
-                  </div>
+                <div className="hidden sm:ml-6 sm:flex space-x-4">
+                  {navigation.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className={classNames(
+                        item.current
+                          ? "bg-white text-black"
+                          : "text-white hover:bg-gray-700 hover:text-white",
+                        "rounded-md px-3 py-2 text-sm font-medium"
+                      )}
+                      aria-current={item.current ? "page" : undefined}
+                    >
+                      {item.name}
+                    </a>
+                  ))}
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <Menu as="div" className="relative ml-3">
-                  <Transition
-                    as={Fragment}
-                    enter="transition ease-out duration-100"
-                    enterFrom="transform opacity-0 scale-95"
-                    enterTo="transform opacity-100 scale-100"
-                    leave="transition ease-in duration-75"
-                    leaveFrom="transform opacity-100 scale-100"
-                    leaveTo="transform opacity-0 scale-95"
+                {/* Social Media Icons */}
+                <div className="flex items-center space-x-4">
+                  {/* Instagram */}
+                  <a
+                    href="https://www.instagram.com/your_instagram_profile/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white hover:bg-gray-700 hover:text-white rounded-md p-2"
                   >
-                    <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="#"
-                            className={classNames(
-                              active ? "bg-gray-100" : "",
-                              "block px-4 py-2 text-sm text-gray-700"
-                            )}
-                          >
-                            Your Profile
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="#"
-                            className={classNames(
-                              active ? "bg-gray-100" : "",
-                              "block px-4 py-2 text-sm text-gray-700"
-                            )}
-                          >
-                            Settings
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="#"
-                            className={classNames(
-                              active ? "bg-gray-100" : "",
-                              "block px-4 py-2 text-sm text-gray-700"
-                            )}
-                          >
-                            Sign out
-                          </a>
-                        )}
-                      </Menu.Item>
-                    </Menu.Items>
-                  </Transition>
-                </Menu>
+                    <img
+                      className="h-8 w-8"
+                      src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690993367/icons8-instagram-48_w8rp1q.png"
+                      alt="Instagram"
+                    />
+                  </a>
+
+                  {/* Facebook */}
+                  <a
+                    href="https://www.facebook.com/your_facebook_profile/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white hover:bg-gray-700 hover:text-white rounded-md p-2"
+                  >
+                    <img
+                      className="h-6 w-6"
+                      src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690993225/icons8-facebook-48_eysasj.png"
+                      alt="Facebook"
+                    />
+                  </a>
+
+                  {/* Twitter */}
+                  <a
+                    href="https://twitter.com/your_twitter_profile/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white hover:bg-gray-700 hover:text-white rounded-md p-2"
+                  >
+                    <img
+                      className="h-6 w-6"
+                      src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690993548/icons8-twitter-100_msqjna.png"
+                      alt="Twitter"
+                    />
+                  </a>
+
+                  {/* LinkedIn */}
+                  <a
+                    href="https://www.linkedin.com/in/your_linkedin_profile/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white hover:bg-gray-700 hover:text-white rounded-md p-2"
+                  >
+                    <img
+                      className="h-6 w-6"
+                      src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690993563/icons8-linkedin-100_j6axoo.png"
+                      alt="LinkedIn"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
