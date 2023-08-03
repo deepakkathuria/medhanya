@@ -36,8 +36,10 @@ export default function Nav() {
                 <div className="flex flex-shrink-0 items-center bg-white">
                   <img
                     className="h-8 w-auto rounded-md"
-                    src="https://res.cloudinary.com/dbb7g0jqa/image/upload/v1690470496/logo_mcwbgh.png"
+                    // src="https://res.cloudinary.com/dbb7g0jqa/image/upload/v1690470496/logo_mcwbgh.png"
+                    src='https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691039226/WhatsApp_Image_2023-08-03_at_01.07.11_ixhmjm.jpg'
                     alt="Your Company"
+                    // style={{width:"90px"}}
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:flex space-x-4">
