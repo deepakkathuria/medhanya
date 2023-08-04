@@ -18,7 +18,7 @@ const ExcipentDetailPage = ({ categoryImages, productsData }) => {
           {sweetener}
         </h2> */}
         <img
-          src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690801942/louis-reed-pwcKF7L4-no-unsplash_jphgmd.jpg"
+          src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690802437/Aboutus_l8hwrk.jpg"
           style={{height:"350px",width:"800px"}}
         //   alt={sweetener}
           className="w-full h-60 object-cover rounded-lg mb-4"

@@ -36,7 +36,7 @@ const ProductsPage = () => {
       "https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800745/Sweeteners3_awmksa.jpg",
     ],
     Excipients: [
-      "https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690801942/louis-reed-pwcKF7L4-no-unsplash_jphgmd.jpg",
+      "https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690802437/Aboutus_l8hwrk.jpg",
     ],
     "Acidity Regulators": [
       "https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800752/Acidity_Regulators1_dpfjgs.jpg",

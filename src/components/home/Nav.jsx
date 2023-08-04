@@ -16,7 +16,7 @@ function classNames(...classes) {
 
 export default function Nav() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-white-500">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -32,17 +32,19 @@ export default function Nav() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex  items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center bg-white">
                   <img
-                    className="h-8 w-auto rounded-md"
+                    // className="h-12 w-auto rounded-md"
                     // src="https://res.cloudinary.com/dbb7g0jqa/image/upload/v1690470496/logo_mcwbgh.png"
-                    src='https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691039226/WhatsApp_Image_2023-08-03_at_01.07.11_ixhmjm.jpg'
+                    src='https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691113598/Main_SVG_w4htwb.svg'
                     alt="Your Company"
-                    // style={{width:"90px"}}
+                    style={{width:"195px",height:"60px",marginLeft:"-49px"}}
                   />
                 </div>
-                <div className="hidden sm:ml-6 sm:flex space-x-4">
+                <div 
+                style={{marginTop:"12px",marginLeft:"14px"}}
+                className="hidden sm:flex space-x-2">
                   {navigation.map((item) => (
                     <a
                       key={item.name}
@@ -50,7 +52,7 @@ export default function Nav() {
                       className={classNames(
                         item.current
                           ? "bg-white text-black"
-                          : "text-white hover:bg-gray-700 hover:text-white",
+                          : "text-black hover:bg-gray-700 hover:text-white",
                         "rounded-md px-3 py-2 text-sm font-medium"
                       )}
                       aria-current={item.current ? "page" : undefined}
@@ -60,7 +62,7 @@ export default function Nav() {
                   ))}
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-8 sm:pr-0">
                 {/* Social Media Icons */}
                 <div className="flex items-center space-x-4">
                   {/* Instagram */}

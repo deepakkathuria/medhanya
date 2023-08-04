@@ -1,7 +1,7 @@
 const products = [
   {
     id: 1,
-    name: "Sweetener",
+    name: "Sweeteners",
     href: "#",
     imageSrc:
       "https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800745/Sweeteners3_awmksa.jpg",
@@ -10,15 +10,15 @@ const products = [
   },
   {
     id: 1,
-    name: "Excipient",
+    name: "Excipients",
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690801942/louis-reed-pwcKF7L4-no-unsplash_jphgmd.jpg",
+      "https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690802437/Aboutus_l8hwrk.jpg",
     
   },
   {
     id: 1,
-    name: "Acidity Regulator",
+    name: "Acidity Regulators",
     href: "#",
     imageSrc:
       "https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800752/Acidity_Regulators1_dpfjgs.jpg",
