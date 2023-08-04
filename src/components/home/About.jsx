@@ -1,10 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 const AboutSection = () => {
   return (
-    <section className="bg-gradient-to-r from-cyan-200 to-blue-500">
+    <section
+      className="bg-gradient-to-r from-cyan-200 to-blue-500"
+      style={{
+        // backgroundImage: `url('https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800745/Background_Image_p1tafv.jpg')`,
+
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
+    >
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7">
           <h1 className="max-w-2xl mb-4 text-4xl text-white font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
@@ -63,7 +70,8 @@ const AboutSection = () => {
           </a> */}
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img className="rounded-xl"
+          <img
+            className="rounded-xl"
             src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690802437/Aboutus_l8hwrk.jpg"
             alt="mockup"
           />
