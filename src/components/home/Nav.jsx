@@ -37,9 +37,9 @@ export default function Nav() {
                   <img
                     // className="h-12 w-auto rounded-md"
                     // src="https://res.cloudinary.com/dbb7g0jqa/image/upload/v1690470496/logo_mcwbgh.png"
-                    src='https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691113598/Main_SVG_w4htwb.svg'
+                    src='https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691142508/Side_logo_outk4p.svg'
                     alt="Your Company"
-                    style={{width:"195px",height:"60px",marginLeft:"-49px"}}
+                    style={{width:"200px",height:"45px",marginLeft:"-20px",marginTop:"12px"}}
                   />
                 </div>
                 <div 
