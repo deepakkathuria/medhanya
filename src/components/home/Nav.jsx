@@ -20,7 +20,7 @@ export default function Nav() {
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-            <div className="relative flex h-16 items-center justify-between">
+            <div className="relative flex h-34 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button */}
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -37,18 +37,19 @@ export default function Nav() {
                   <img
                     // className="h-12 w-auto rounded-md"
                     // src="https://res.cloudinary.com/dbb7g0jqa/image/upload/v1690470496/logo_mcwbgh.png"
-                    src='https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691142508/Side_logo_outk4p.svg'
+                    src='https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691231690/1000_F_601120335_2qLTs88YdsiNBxtWvGStWlnreAqCwIBn-01_a78plm.png'
                     alt="Your Company"
-                    style={{width:"200px",height:"45px",marginLeft:"-20px",marginTop:"12px"}}
+                    style={{width:"200px",height:"140px",marginLeft:"-20px",marginTop:"12px"}}
                   />
                 </div>
                 <div 
-                style={{marginTop:"12px",marginLeft:"14px"}}
+                style={{marginTop:"60px",marginLeft:"14px"}}
                 className="hidden sm:flex space-x-2">
                   {navigation.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
+                      style={{fontSize:"15px"}}
                       className={classNames(
                         item.current
                           ? "bg-white text-black"
@@ -67,7 +68,7 @@ export default function Nav() {
                 <div className="flex items-center space-x-4">
                   {/* Instagram */}
                   <a
-                    href="https://www.instagram.com/your_instagram_profile/"
+                    href="https://www.instagram.com/medhanya88248/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white hover:bg-gray-700 hover:text-white rounded-md p-2"
@@ -81,7 +82,7 @@ export default function Nav() {
 
                   {/* Facebook */}
                   <a
-                    href="https://www.facebook.com/your_facebook_profile/"
+                    href="https://www.facebook.com/profile.php?id=100081580146437"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white hover:bg-gray-700 hover:text-white rounded-md p-2"
@@ -95,7 +96,7 @@ export default function Nav() {
 
                   {/* Twitter */}
                   <a
-                    href="https://twitter.com/your_twitter_profile/"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white hover:bg-gray-700 hover:text-white rounded-md p-2"
@@ -108,7 +109,7 @@ export default function Nav() {
                   </a>
 
                   {/* LinkedIn */}
-                  <a
+                  {/* <a
                     href="https://www.linkedin.com/in/your_linkedin_profile/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -119,7 +120,7 @@ export default function Nav() {
                       src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690993563/icons8-linkedin-100_j6axoo.png"
                       alt="LinkedIn"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

@@ -20,7 +20,7 @@ const Footer = () => {
       
       <div className="flex gap-2 flex-col items-center">
         <Phone className="ring-2 ring-neutral-100 text-white rounded-full p-1"/>
-        <p className="text-[12px] text-gray font-bold">+1 (123) 456-7890</p>
+        <p className="text-[12px] text-gray font-bold">+91- 7982349877</p>
       </div>
 
       <div  className="flex gap-1 flex-col items-center">
@@ -33,7 +33,7 @@ const Footer = () => {
 
       <div className="flex gap-1 flex-col items-center">
         <Email className="ring-2 ring-neutral-100 text-white rounded-full p-1"/>
-        <div className="text-[12px] text-gray font-bold">infor@gm.com</div>
+        <div className="text-[12px] text-gray font-bold">info@medhanya.com</div>
       </div>
 
     </div>
