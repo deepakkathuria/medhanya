@@ -78,17 +78,6 @@ const ContactUs = () => {
           {/* </Fade> */}
         </div>
       </div>
-      {/* Add the WhatsApp icon here */}
-      <div
-        className="fixed right-4 bottom-4 cursor-pointer"
-        onClick={() => window.open("https://your-whatsapp-link.com", "_blank")}
-      >
-        <img
-          src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691042795/icons8-whatsapp_2_ctr9zq.gif"
-          alt="WhatsApp Icon"
-          style={{ width: "50px", height: "50px" }}
-        />
-      </div>
     </section>
   );
 };

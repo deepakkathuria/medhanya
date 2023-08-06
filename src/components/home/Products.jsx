@@ -38,9 +38,8 @@ export default function Products() {
   return (
     <div className="bg-gradient-to-r from-cyan-200 to-blue-500">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 backdrop-blur-sm bg-white/30">
-        <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-          Products
-        </h2>
+      <h2 className="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-white dark:text-white md:text-4xl">
+PRODUCTS          </h2>
 
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (

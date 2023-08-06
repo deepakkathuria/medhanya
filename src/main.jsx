@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 import Footer from "./components/home/Footer.jsx";
 import Nav from "./components/home/Nav.jsx";
+import WhatsAppButton from "./WhatsApp.jsx"
 // import NavBar from "./components/home/Navbar.jsx";
 const Loader = () => {
   return (
@@ -16,13 +17,17 @@ const Loader = () => {
     </div>
   )
 }
-
+const phoneno = 8447145941
+const message ="Hello"
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Suspense fallback={<Loader />}>
       <Nav />
       <App />
+      {/* <WhatsAppButton phoneNumber={phoneno} message={message} /> */}
+
       <Footer />
+
     </Suspense>
   </React.StrictMode>
 );

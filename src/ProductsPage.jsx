@@ -49,7 +49,7 @@ const ProductsPage = () => {
   return (
     <div className="bg-gradient-to-r from-cyan-200 to-blue-500 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-extrabold text-gray-900 mb-8">
+        <h2 className="text-3xl font-extrabold text-gray-900 mb-8">
           Our Product List
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

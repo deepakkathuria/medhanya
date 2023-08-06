@@ -5,10 +5,10 @@ const Vision = () => {
     <section className="bg-gradient-to-r from-cyan-200 to-blue-500">
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7">
-          <h1 className="max-w-2xl mb-4 text-4xl text-black font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+          <h1 className="max-w-2xl mb-4 text-4xl text-black font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">
             Vision And Mission
           </h1>
-          <p className="max-w-2xl mb-8 font-light text-black lg:mb-5 md:text-lg lg:text-xl">
+          <p className="max-w-2xl mb-8 font-light text-black lg:mb-5 md:text-lg lg:text-l">
           <strong>Vision:</strong>
             <br></br>
             To be the preferred global partner in the pharmaceutical and chemical industry, recognized for our unwavering commitment to quality, ethical business practices,

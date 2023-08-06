@@ -33,11 +33,15 @@ const Hero = () => {
               ></path>
             </svg> */}
           </a>
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-            Medhanya Enterprises: Elevating Excellence in Trading &
-            Partnerships!
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-5xl">
+            Medhanya Enterprises
+            <h1 style={{fontSize:"32px", marginTop:"10px",fontWeight:"500"}}>
+            Elevating Excellence in Trading & Partnerships!
+            </h1>
           </h1>
-          <p className="mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48">
+          <p 
+          style={{marginTop:"24px"}}
+          className="mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48">
             Your Trusted Partner in Trading Quality Bulk Drugs, Chemicals,
             Excipients, Food Additives & Sweeteners, and API's - Committed to
             Excellence and Customer Satisfaction.

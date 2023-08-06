@@ -4,7 +4,7 @@ const Customers = () => {
   return (
     <>
       <section 
-       className="bg-gradient-to-r from-cyan-200 to-blue-500  py-8 lg:py-16 mx-auto max-w-screen-xl px-4"
+       className="bg-gradient-to-r from-cyan-200 to-blue-500  py-8 lg:py-20 mx-auto max-w-screen-xl px-4"
       // className="bg-white dark:bg-gray-900"
             // style={{
             //   backdropFilter: "blur(10px) !important", // Add the glass blur effect
@@ -14,7 +14,7 @@ const Customers = () => {
       >
         <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4 backdrop-blur-sm bg-white/30">
           <h2 className="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-white dark:text-white md:text-4xl">
-            You’ll be in good company
+            YOU’LL BE IN GOOD COMPANY
           </h2>
           <div className="grid-cols-4 gap-8 text-gray-500 sm:gap-12 md:grid-cols-4 lg:grid-cols-4 dark:text-gray-400  rounded-xl p-3 content-center justify-center justify-items-center items-center grid justify-items-center">
             <a href="#" className="flex justify-center items-center">

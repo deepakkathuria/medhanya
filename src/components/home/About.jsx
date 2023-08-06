@@ -14,10 +14,10 @@ const AboutSection = () => {
     >
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7">
-          <h1 className="max-w-2xl mb-4 text-4xl text-white font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+          <h1 className="max-w-2xl mb-4 text text-white font-extrabold tracking-tight leading-none md:text-5xl xl:text-4xl dark:text-white">
             Welcome To Medhanya Enterprises
           </h1>
-          <p className="max-w-2xl mb-8 font-light text-black lg:mb-5 md:text-lg lg:text-xl">
+          <p className="max-w-2xl mb-8 font-light text-black lg:mb-5 md:text-lg lg:text-l">
             With pleasure we introduce ourselves, <b>MEDHANYA ENTERPRISES</b> , a
             trading company in the industry. We are specialized in indenting and
             trading of quality Bulk Drugs, Chemicals, Excipients, Food Additives

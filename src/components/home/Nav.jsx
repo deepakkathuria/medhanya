@@ -37,7 +37,7 @@ export default function Nav() {
                   <img
                     // className="h-12 w-auto rounded-md"
                     // src="https://res.cloudinary.com/dbb7g0jqa/image/upload/v1690470496/logo_mcwbgh.png"
-                    src='https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691231690/1000_F_601120335_2qLTs88YdsiNBxtWvGStWlnreAqCwIBn-01_a78plm.png'
+                    src='https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691261703/1000_F_601120335_2qLTs88YdsiNBxtWvGStWlnreAqCwIBn-02_cythwo.svg'
                     alt="Your Company"
                     style={{width:"200px",height:"140px",marginLeft:"-20px",marginTop:"12px"}}
                   />
