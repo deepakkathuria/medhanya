@@ -9,20 +9,29 @@ const Vision = () => {
             Vision And Mission
           </h1>
           <p className="max-w-2xl mb-8 font-light text-black lg:mb-5 md:text-lg lg:text-l">
-          <strong>Vision:</strong>
+          <strong style={{ fontWeight: 'bold' }}>Vision:</strong>
             <br></br>
-            To be the preferred global partner in the pharmaceutical and chemical industry, recognized for our unwavering commitment to quality, ethical business practices,
-            and customer-centric approach, while contributing to the advancement of healthcare and the well-being of society.
+            To help every customer have a positive memorable experience.
             <br></br>
-
-            <strong>Mission:</strong>
             <br></br>
 
-            To build enduring partnerships with our customers, understanding their needs and goals, and supporting them in achieving success by delivering products on time, maintaining high standards of quality, and offering exceptional after-sales service
-    
 
-          </p>
+            <strong style={{ fontWeight: 'bold' }}>Mission:</strong>
+            <br></br>
+
+         To have positive impacton the lives of our customers and our team.    
+
+          <br></br>
+          <br></br>
+
+            <strong style={{ fontWeight: 'bold' }}>Goal:</strong>
+            <br></br>
+
+To be open ,honest and fair ... whatever we do, we do it right,and we do it together.
+</p>
+
           {/* <a
+          
             href="#"
             className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
           >
@@ -50,7 +59,7 @@ const Vision = () => {
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
           <br></br>
           <img className="rounded-xl"
-            style={{ height: "410px" }}
+            // style={{ height: "410px" }}
             src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690975795/Vision_Mission_kwmh4t.jpg"
             alt="mockup"
           />

@@ -72,7 +72,7 @@ const AboutSection = () => {
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
           <img
             className="rounded-xl"
-            src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691137855/d8d88c69-7aa9-445e-873c-3e424a7211a8_rw2mdj.jpg"
+            src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691333622/image_1_tido9v.png"
             alt="mockup"
           />
         </div>

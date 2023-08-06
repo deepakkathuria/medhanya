@@ -21,24 +21,31 @@ const Customers = () => {
               <img
                 src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800742/c1_slvwvo.jpg"
                 alt=""
+                style={{width:"200px",height:"80px"}}
               />
             </a>
             <a href="#" className="flex justify-center items-center">
               <img
                 src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800743/c2_ux4dag.png"
                 alt=""
+                style={{width:"200px",height:"80px"}}
+
               />
             </a>
             <a href="#" className="flex justify-center items-center">
               <img
                 src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800744/c10_wxod3a.png"
                 alt=""
+                style={{width:"200px",height:"80px"}}
+
               />
             </a>
             <a href="#" className="flex justify-center items-center">
               <img
                 src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800743/c3_v3qgaw.png"
                 alt=""
+                style={{width:"200px",height:"80px"}}
+
               />
             </a>
             {/* Second Row */}
@@ -46,42 +53,57 @@ const Customers = () => {
               <img
                 src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800743/c5_umlsuo.png"
                 alt=""
+                style={{width:"200px",height:"80px"}}
+                
+
               />
             </a>
             <a href="#" className="flex justify-center items-center">
               <img
                 src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800742/c4_qvpwg4.png"
                 alt=""
+                style={{width:"200px",height:"80px"}}
+
               />
             </a>
             <a href="#" className="flex justify-center items-center">
               <img
                 src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800743/c7_zwsycw.png"
                 alt=""
+                style={{width:"200px",height:"80px"}}
+
               />
             </a>
             <a href="#" className="flex justify-center items-center">
               <img
                 src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800743/c8_dtgwmb.png"
                 alt=""
+                style={{width:"200px",height:"80px"}}
+
               />
             </a>
             <a href="#" className="flex justify-center items-center">
               <img
                 src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800744/c9_dcg32p.png"
                 alt=""
+                style={{width:"200px",height:"80px"}}
+
               />
             </a>
             <a href="#" className="flex justify-center items-center">
               <img
                 src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800743/c6_xwzbfl.png"
                 alt=""
+                style={{width:"200px",height:"80px"}}
+
               />
             </a>
             <a href="#" className="flex justify-center items-center">
               <img
                 src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691231262/unnamed_uzcmwd.png"
                 alt=""
+                style={{width:"200px",height:"80px"}}
+
               />
             </a>
           </div>

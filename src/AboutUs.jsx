@@ -5,7 +5,7 @@ const AboutSection = () => {
     <section
       className="bg-gradient-to-r from-cyan-200 to-blue-500"
       style={{
-        backgroundImage: `url('https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691136890/nasa-rTZW4f02zY8-unsplash_xu2a9t.jpg')`,
+        backgroundImage: `url('https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691333621/WhatsApp_Image_2023-08-06_at_15.12.21_mw3mth.jpg')`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         // paddingBottom: "0px", // Add extra padding to the bottom to prevent overlap
@@ -17,11 +17,12 @@ const AboutSection = () => {
     >
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7">
-          <h1 className="max-w-2xl mb-0 text-3xl text-black font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">
+          <h1 className="max-w-2xl mb-0 text-3xl text-white font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">
             About Us
           </h1>
+          <br></br>
 
-          <p className="max-w-2xl  font-light text-white lg:mb-5 md:text-lg lg:text-ll">
+          <p className="max-w-2xl  font-light text-black lg:mb-5 md:text-lg lg:text-ll">
             With pleasure we introduce ourselves, <b>MEDHANYA ENTERPRISES</b> , a
             trading company in the industry. We are specialized in indenting and
             trading of quality Bulk Drugs, Chemicals, Excipients, Food Additives
