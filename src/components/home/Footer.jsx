@@ -33,7 +33,8 @@ const Footer = () => {
 
       <div className="flex gap-1 flex-col items-center">
         <Email className="ring-2 ring-neutral-100 text-white rounded-full p-1"/>
-        <div className="text-[12px] text-gray font-bold">info@medhanya.com</div>
+        <div className="text-[12px] text-gray font-bold">info@medhanya.com
+        </div>
       </div>
 
     </div>

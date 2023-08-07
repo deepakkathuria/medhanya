@@ -5,7 +5,7 @@ const AboutSection = () => {
     <section
       className="bg-gradient-to-r from-cyan-200 to-blue-500"
       style={{
-        backgroundImage: `url('https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691333621/WhatsApp_Image_2023-08-06_at_15.12.21_mw3mth.jpg')`,
+        // backgroundImage: `url('https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691333621/WhatsApp_Image_2023-08-06_at_15.12.21_mw3mth.jpg')`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         // paddingBottom: "0px", // Add extra padding to the bottom to prevent overlap

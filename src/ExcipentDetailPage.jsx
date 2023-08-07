@@ -32,7 +32,7 @@ const ExcipentDetailPage = ({ categoryImages, productsData }) => {
         <li> Cross Povidone</li>
         <li> HPMC E5, E15 & K Series</li>
         <li> PVPK30</li>
-        <li> Xanthan Gum</li>    ,     
+        <li> Xanthan Gum</li>   
 
 
 </p>

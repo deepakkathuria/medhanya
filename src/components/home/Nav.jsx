@@ -16,7 +16,7 @@ function classNames(...classes) {
 
 export default function Nav() {
   return (
-    <Disclosure as="nav" className="bg-white-500">
+    <Disclosure as="nav" className="bg-blue-200">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -33,17 +33,17 @@ export default function Nav() {
                 </Disclosure.Button>
               </div>
               <div className="flex  items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex flex-shrink-0 items-center bg-white">
+                <div className="flex flex-shrink-0 items-center bg-blue-200">
                   <img
                     className="h-12 w-auto rounded-md"
                     // src="https://res.cloudinary.com/dbb7g0jqa/image/upload/v1690470496/logo_mcwbgh.png"
                     src='https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691333170/1000_F_601120335_2qLTs88YdsiNBxtWvGStWlnreAqCwIBn-03_v3aria.svg'
                     alt="Your Company"
-                    style={{width:"200px",height:"140px",marginLeft:"-20px",marginTop:"12px"}}
+                    style={{width:"200px",height:"100px",marginLeft:"-20px",marginTop:"12px"}}
                   />
                 </div>
                 <div 
-                style={{marginTop:"60px",marginLeft:"14px"}}
+                style={{marginTop:"40px",marginLeft:"50px"}}
                 className="hidden sm:flex space-x-2">
                   {navigation.map((item) => (
                     <a

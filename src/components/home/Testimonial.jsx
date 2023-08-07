@@ -38,7 +38,6 @@ TESTIMONIAL          </h2>
             /> */}
             <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
               <div className="pr-3 font-medium text-gray-900 dark:text-white">
-                - Anonymous
               </div>
               <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
                 {/* CEO at Tanwar pvt.ltd */}

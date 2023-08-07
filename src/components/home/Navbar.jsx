@@ -34,6 +34,8 @@ export default function NavBar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center bg-white">
+                {/* <div className="bg-gradient-to-r from-cyan-200 to-blue-400"> */}
+
                   <img
                     className="h-8 w-auto rounded-md"
                     src="https://res.cloudinary.com/dbb7g0jqa/image/upload/v1690470496/logo_mcwbgh.png"

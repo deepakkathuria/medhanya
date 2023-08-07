@@ -33,7 +33,7 @@ const SweetenerDetailPage = ({ categoryImages, productsData }) => {
         <li> Acesulfame K</li>
         <li> Sodium Saccharin</li>
         <li> Stevia Sugar</li>
-        <li> Sucralose</li>    ,     
+        <li> Sucralose</li>    
 
 
 </p>

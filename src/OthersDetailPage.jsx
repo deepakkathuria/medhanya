@@ -33,7 +33,7 @@ const OthersDetailPage = ({ categoryImages, productsData }) => {
         <li> Dicyanamide (DCDA)</li>
         <li> Paracetamol</li>
         <li> Sodium Ascorbate</li>
-        <li>Sodium Gluconate</li>    ,     
+        <li>Sodium Gluconate</li>   
 
 
 </p>

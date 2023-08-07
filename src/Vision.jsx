@@ -11,7 +11,8 @@ const Vision = () => {
           <p className="max-w-2xl mb-8 font-light text-black lg:mb-5 md:text-lg lg:text-l">
           <strong style={{ fontWeight: 'bold' }}>Vision:</strong>
             <br></br>
-            To help every customer have a positive memorable experience.
+            To have positive impacton the lives of our customers and our team.    
+
             <br></br>
             <br></br>
 
@@ -19,7 +20,8 @@ const Vision = () => {
             <strong style={{ fontWeight: 'bold' }}>Mission:</strong>
             <br></br>
 
-         To have positive impacton the lives of our customers and our team.    
+         To help every customer have a positive memorable experience.
+
 
           <br></br>
           <br></br>
