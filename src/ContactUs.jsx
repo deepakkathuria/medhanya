@@ -13,15 +13,10 @@ const ContactUs = () => {
   }, []);
 
   return (
-    <section className="bg-gradient-to-r from-cyan-200 to-blue-500 body-font">
-      <div>
-        <img
-          src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691042795/icons8-whatsapp_2_ctr9zq.gif"
-          alt="loading..."
-        />
-      </div>
-      <div className="container px-5 py-10 mx-auto">
-        <div className="lg:w-1/2 md:w-2/3 bg-white rounded-lg p-8 flex flex-col md:ml-auto md:mr-auto w-full mt-10 md:mt-0 relative z-10 shadow-md border-2 border-black">
+    <section className="bg-gradient-to-r from-cyan-200 to-blue-500 body-font h-max">
+      <div className="flex px-5 py-10 mx-auto space-x-10 ">
+       
+        <div className="lg:w-1/2 md:w-2/3 bg-white rounded-lg p-8 flex flex-col md:ml-auto md:mr-auto w-full mt-10 md:mt-0 relative z-10 shadow-md border-2">
           <h2 className="text-gray-900 text-2xl mb-4 font-semibold text-center">
             Contact Us
           </h2>
@@ -76,6 +71,24 @@ const ContactUs = () => {
             {isFormFocused ? "Form is focused!" : ""}
           </p>
           {/* </Fade> */}
+        </div>
+        <div className="lg:w-[40%]  md:w-2/3 bg-white rounded-lg p-8 flex flex-col md:ml-auto md:mr-auto w-[60%] mt-10 md:mt-0 relative z-10 shadow-md border-2">
+        
+        <div style={{color:"black"}} className=" h-[50%]  inset-0 bg-gray-300">
+        <iframe
+          width="100%"
+          height="100%"
+          frameBorder="0"
+          marginHeight="0"
+          marginWidth="0"
+          title="map"
+          scrolling="no"
+          src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+          style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
+        ></iframe>
+      </div>
+      <div className="h-[50%] py-[100px] font-bold"><p>526, FIRST FLOOR, PARMANAND COLONY (WEST) DELHI- 110009
+</p></div>
         </div>
       </div>
     </section>

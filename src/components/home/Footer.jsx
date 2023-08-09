@@ -1,6 +1,7 @@
 import React from "react";
 import { Email, Phone, LocationOn } from "@mui/icons-material";
 
+
 const Footer = () => {
   const iconStyle = "text-3xl rounded-full border-2 border-black p-2 mb-2 cursor-pointer transition-transform duration-300";
   const logoIconStyle = "text-2.5xl text-blue-500 mb-1 transition-transform duration-300";
@@ -15,35 +16,34 @@ const Footer = () => {
   };
 
   return (
-   <footer className="h-20 bg-gradient-to-r flex flex-col gap-3 from-cyan-200 to-blue-500 w-[100%]">
-    <div className="flex justify-around">
-      
-      <div className="flex gap-2 flex-col items-center">
-        <Phone className="ring-2 ring-neutral-100 text-white rounded-full p-1"/>
-        <p className="text-[12px] text-gray font-bold">+91- 7982349877</p>
-      </div>
+    <footer className=" min-h-20 bg-gradient-to-r flex flex-col w-full from-cyan-200 to-blue-500  py-5 border-t-[1px]">
 
-      <div  className="flex gap-1 flex-col items-center">
-        <LocationOn className="ring-2 ring-neutral-100 text-white rounded-full p-1"/>
-        <div className="text-[12px] text-gray font-bold">
-        526, FIRST FLOOR,
-        PARMANAND COLONY (WEST) DELHI- 110009
+      <div className="flex justify-around flex-col  md:flex-row sm:flex-col space-y-5">
+        <div className="flex flex-col items-center justify-end">
+          <Phone className="ring-2 ring-neutral-100 text-white rounded-full p-1" />
+          <p className="text-[12px] text-gray font-bold">+91- 7982349877</p>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <LocationOn className="ring-2 ring-neutral-100 text-white rounded-full p-1" />
+          <div className="text-[12px] text-gray font-bold text-center">
+            526, FIRST FLOOR, PARMANAND COLONY (WEST) DELHI- 110009
+          </div>
+        </div>
+
+        <div className="flex flex-col items-center bg-red-500">
+          <Email className="ring-2 ring-neutral-100 text-white rounded-full p-1" />
+          <div className="text-[12px] text-gray font-bold"> info@medhanya.com, medhanya@medhanya.com
+          </div>
+
         </div>
       </div>
 
-      <div className="flex gap-1 flex-col items-center">
-        <Email className="ring-2 ring-neutral-100 text-white rounded-full p-1"/>
-        <div className="text-[12px] text-gray font-bold">info@medhanya.com
-        </div>
-      </div>
-
-    </div>
-
-    {/* <div className="flex gap-1 flex-col items-center">
+      {/* <div className="flex gap-1 flex-col items-center">
         <p className="text-[12px] text-gray font-bold">Medhanya@2023 text</p>
       </div> */}
 
-   </footer>
+    </footer>
   );
 };
 
@@ -79,4 +79,3 @@ export default Footer;
 
     //   {/* Medhanya@2023 text */}
     // </footer>
- 

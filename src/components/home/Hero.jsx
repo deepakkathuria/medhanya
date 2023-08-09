@@ -42,8 +42,9 @@ const Hero = () => {
           <p 
           style={{marginTop:"24px"}}
           className="mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48">
+            <span style={{color: "black"}}>
             Your Trusted Partner in Trading Quality Bulk Drugs, Chemicals,
-            Excipients, Food Additives & Sweeteners, and API's -  <span style={{color: "black",fontWeight: "bold"}}>Committed to
+            Excipients, Food Additives & Sweeteners, and API's -  Committed to
     Excellence and Customer Satisfaction</span>
           </p>
           {/* <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">

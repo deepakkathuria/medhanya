@@ -1,6 +1,9 @@
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Disclosure } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { FiPhoneCall } from 'react-icons/fi';
+import { TfiEmail } from 'react-icons/tfi';
+
+
 
 const navigation = [
   { name: "Home", href: "/", current: false },
@@ -19,53 +22,15 @@ export default function Nav() {
     <Disclosure as="nav" className="bg-blue-200">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-            <div className="relative flex h-34 items-center justify-between">
-              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                {/* Mobile menu button */}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-                  <span className="sr-only">Open main menu</span>
-                  {open ? (
-                    <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
-                  ) : (
-                    <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
-                  )}
-                </Disclosure.Button>
-              </div>
-              <div className="flex  items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex flex-shrink-0 items-center bg-blue-200">
-                  <img
-                    className="h-12 w-auto rounded-md"
-                    // src="https://res.cloudinary.com/dbb7g0jqa/image/upload/v1690470496/logo_mcwbgh.png"
-                    src='https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691333170/1000_F_601120335_2qLTs88YdsiNBxtWvGStWlnreAqCwIBn-03_v3aria.svg'
-                    alt="Your Company"
-                    style={{width:"200px",height:"100px",marginLeft:"-20px",marginTop:"12px"}}
-                  />
+          <div>
+            <div className="w-full bg-black hidden md:flex justify-between px-5">
+              {/* Social Media Icons */}
+              <div className="flex items-center">
+                <div className="">
+                  <p className="text-white">Follow Us On :  <br></br></p>
                 </div>
-                <div 
-                style={{marginTop:"40px",marginLeft:"50px"}}
-                className="hidden sm:flex space-x-2">
-                  {navigation.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      style={{fontSize:"15px"}}
-                      className={classNames(
-                        item.current
-                          ? "bg-white text-black"
-                          : "text-black hover:bg-gray-700 hover:text-white",
-                        "rounded-md px-3 py-2 text-sm font-medium"
-                      )}
-                      aria-current={item.current ? "page" : undefined}
-                    >
-                      {item.name}
-                    </a>
-                  ))}
-                </div>
-              </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-8 sm:pr-0">
-                {/* Social Media Icons */}
-                <div className="flex items-center space-x-4">
+                <br></br>
+                <div className="flex items-center space-x-3 py-1">
                   {/* Instagram */}
                   <a
                     href="https://www.instagram.com/medhanya88248/"
@@ -74,7 +39,7 @@ export default function Nav() {
                     className="text-white hover:bg-gray-700 hover:text-white rounded-md p-2"
                   >
                     <img
-                      className="h-8 w-8"
+                      className="h-6 w-6"
                       src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690993367/icons8-instagram-48_w8rp1q.png"
                       alt="Instagram"
                     />
@@ -123,6 +88,61 @@ export default function Nav() {
                   </a> */}
                 </div>
               </div>
+              <div className="flex items-center space-x-5">
+                <div className="flex items-center space-x-1">
+                  <FiPhoneCall className="text-red-400 h-[1.5rem] w-[1.5rem]" />
+                  <p className="text-white">+91- 7982349877</p>
+                </div>
+                <div className="flex items-center space-x-1">
+                  <TfiEmail className="text-red-400 h-[1.5rem] w-[1.5rem]" />
+                  <p className="text-white">info@medhanya.com</p>
+                </div>
+              </div>
+            </div>
+            <div className="relative flex h-34 items-center justify-between">
+              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                {/* Mobile menu button */}
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                  <span className="sr-only">Open main menu</span>
+                  {open ? (
+                    <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+                  ) : (
+                    <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+                  )}
+                </Disclosure.Button>
+              </div>
+
+              <div className="flex  items-center justify-center sm:items-stretch sm:justify-start px-5">
+                <div className="flex flex-shrink-0 items-center bg-blue-200">
+                  <img
+                    className="h-12 w-auto rounded-md"
+                    // src="https://res.cloudinary.com/dbb7g0jqa/image/upload/v1690470496/logo_mcwbgh.png"
+                    src='https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691333170/1000_F_601120335_2qLTs88YdsiNBxtWvGStWlnreAqCwIBn-03_v3aria.svg'
+                    alt="Your Company"
+                    style={{ width: "200px", height: "100px", marginLeft: "-20px", marginTop: "12px" }}
+                  />
+                </div>
+                <div
+                  style={{ marginTop: "40px", marginLeft: "50px" }}
+                  className="hidden sm:flex space-x-2">
+                  {navigation.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      style={{ fontSize: "15px" }}
+                      className={classNames(
+                        item.current
+                          ? "bg-white text-black"
+                          : "text-black hover:bg-gray-700 hover:text-white",
+                        "rounded-md px-3 py-2 text-sm font-medium h-10"
+                      )}
+                      aria-current={item.current ? "page" : undefined}
+                    >
+                      {item.name}
+                    </a>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
 
@@ -146,6 +166,7 @@ export default function Nav() {
               ))}
             </div>
           </Disclosure.Panel>
+
         </>
       )}
     </Disclosure>

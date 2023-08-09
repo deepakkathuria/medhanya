@@ -17,14 +17,14 @@ const Loader = () => {
     </div>
   )
 }
-const phoneno = 8447145941
-const message ="Hello"
+const phoneno =  7982349877
+const message ="Medhanya Enterprise is always ready to help"
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Suspense fallback={<Loader />}>
       <Nav />
       <App />
-      {/* <WhatsAppButton phoneNumber={phoneno} message={message} /> */}
+      <WhatsAppButton style={{position:"fixed"}} phoneNumber={phoneno} message={message} />
 
       <Footer />
 
