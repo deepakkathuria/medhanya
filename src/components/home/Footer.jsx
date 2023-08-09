@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center bg-red-500">
+        <div className="flex flex-col items-center">
           <Email className="ring-2 ring-neutral-100 text-white rounded-full p-1" />
           <div className="text-[12px] text-gray font-bold"> info@medhanya.com, medhanya@medhanya.com
           </div>
