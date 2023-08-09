@@ -114,6 +114,8 @@ export default function Nav() {
 
               <div className="flex  items-center justify-center sm:items-stretch sm:justify-start px-5">
                 <div className="flex flex-shrink-0 items-center bg-blue-200">
+                <a href="/" className="flex flex-shrink-0 items-center bg-blue-200">
+
                   <img
                     className="h-12 w-auto rounded-md"
                     // src="https://res.cloudinary.com/dbb7g0jqa/image/upload/v1690470496/logo_mcwbgh.png"
@@ -121,6 +123,7 @@ export default function Nav() {
                     alt="Your Company"
                     style={{ width: "200px", height: "100px", marginLeft: "-20px", marginTop: "12px" }}
                   />
+                  </a>
                 </div>
                 <div
                   style={{ marginTop: "40px", marginLeft: "50px" }}
