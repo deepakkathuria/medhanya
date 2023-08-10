@@ -3,6 +3,45 @@ import React, { useEffect, useState } from "react";
 
 const ContactUs = () => {
   const [isFormFocused, setIsFormFocused] = useState(false);
+  const [formState, setFormState] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+  console.log(formState,"formdata")
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormState((prevState) => ({ ...prevState, [name]: value }));
+  };
+
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    try {
+      const response = await fetch('https://backend-vtnh.onrender.com/send-email', {
+        // const response = await fetch('http://localhost:8000/send-email', {
+
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formState),
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        alert('Email sent successfully');
+      } else {
+        alert('Failed to send email');
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+    }
+  };
 
   useEffect(() => {
     const formInputs = document.querySelectorAll(".form-input");
@@ -29,6 +68,8 @@ const ContactUs = () => {
               type="name"
               id="name"
               name="name"
+              value={formState.name}
+                onChange={handleInputChange}
               className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-6 transition-colors duration-200 ease-in-out form-input"
             />
           </div>
@@ -40,6 +81,8 @@ const ContactUs = () => {
               type="phone"
               id="phone"
               name="phone"
+              value={formState.phone}
+              onChange={handleInputChange}
               className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-6 transition-colors duration-200 ease-in-out form-input"
             />
           </div>
@@ -51,6 +94,8 @@ const ContactUs = () => {
               type="email"
               id="email"
               name="email"
+              value={formState.email}
+              onChange={handleInputChange}
               className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-6 transition-colors duration-200 ease-in-out form-input"
             />
           </div>
@@ -61,10 +106,12 @@ const ContactUs = () => {
             <textarea
               id="message"
               name="message"
+              value={formState.message}
+              onChange={handleInputChange}
               className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-24 text-base outline-none text-gray-700 py-2 px-4 resize-none leading-6 transition-colors duration-200 ease-in-out form-input"
             ></textarea>
           </div>
-          <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg w-full">
+          <button onClick= {handleSubmit}className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg w-full">
             Submit
           </button>
           <p className="text-xs text-gray-500 mt-3 text-center">
