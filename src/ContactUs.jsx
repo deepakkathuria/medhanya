@@ -22,7 +22,6 @@ const ContactUs = () => {
 
     try {
       const response = await fetch('https://backend-vtnh.onrender.com/send-email', {
-        // const response = await fetch('http://localhost:8000/send-email', {
 
         method: 'POST',
         headers: {
