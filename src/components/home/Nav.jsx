@@ -23,7 +23,7 @@ export default function Nav() {
       {({ open }) => (
         <>
           <div>
-            <div className="w-full bg-black hidden md:flex justify-between px-5">
+            <div className="w-full bg-black flex justify-between px-5">
               {/* Social Media Icons */}
               <div className="flex items-center">
                 <div className="">
@@ -88,7 +88,7 @@ export default function Nav() {
                   </a> */}
                 </div>
               </div>
-              <div className="flex items-center space-x-5">
+              <div className="items-center space-x-5 hidden md:flex">
                 <div className="flex items-center space-x-1">
                   <FiPhoneCall className="text-red-400 h-[1.5rem] w-[1.5rem]" />
                   <p className="text-white">+91- 7982349877</p>
@@ -114,15 +114,15 @@ export default function Nav() {
 
               <div className="flex  items-center justify-center sm:items-stretch sm:justify-start px-5">
                 <div className="flex flex-shrink-0 items-center bg-blue-200">
-                <a href="/" className="flex flex-shrink-0 items-center bg-blue-200">
+                  <a href="/" className="flex flex-shrink-0 items-center bg-blue-200">
 
-                  <img
-                    className="h-12 w-auto rounded-md"
-                    // src="https://res.cloudinary.com/dbb7g0jqa/image/upload/v1690470496/logo_mcwbgh.png"
-                    src='https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691333170/1000_F_601120335_2qLTs88YdsiNBxtWvGStWlnreAqCwIBn-03_v3aria.svg'
-                    alt="Your Company"
-                    style={{ width: "200px", height: "100px", marginLeft: "-20px", marginTop: "12px" }}
-                  />
+                    <img
+                      className="h-12 w-auto rounded-md"
+                      // src="https://res.cloudinary.com/dbb7g0jqa/image/upload/v1690470496/logo_mcwbgh.png"
+                      src='https://res.cloudinary.com/dqdaz8ni5/image/upload/v1691333170/1000_F_601120335_2qLTs88YdsiNBxtWvGStWlnreAqCwIBn-03_v3aria.svg'
+                      alt="Your Company"
+                      style={{ width: "200px", height: "100px", marginLeft: "-20px", marginTop: "12px" }}
+                    />
                   </a>
                 </div>
                 <div
