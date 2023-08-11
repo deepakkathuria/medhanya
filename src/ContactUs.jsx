@@ -9,7 +9,7 @@ const ContactUs = () => {
     phone: "",
     message: "",
   });
-  console.log(formState,"formdata")
+  console.log(formState, "formdata")
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -53,7 +53,7 @@ const ContactUs = () => {
   return (
     <section className="bg-gradient-to-r from-cyan-200 to-blue-500 body-font h-max">
       <div className="flex px-5 py-10 mx-auto space-x-10 ">
-       
+
         <div className="lg:w-1/2 md:w-2/3 bg-white rounded-lg p-8 flex flex-col md:ml-auto md:mr-auto w-full mt-10 md:mt-0 relative z-10 shadow-md border-2">
           <h2 className="text-gray-900 text-2xl mb-4 font-semibold text-center">
             Contact Us
@@ -67,8 +67,8 @@ const ContactUs = () => {
               type="name"
               id="name"
               name="name"
-              value={formState.name}
-                onChange={handleInputChange}
+              // value={formState.name}
+              onChange={handleInputChange}
               className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-6 transition-colors duration-200 ease-in-out form-input"
             />
           </div>
@@ -80,7 +80,7 @@ const ContactUs = () => {
               type="phone"
               id="phone"
               name="phone"
-              value={formState.phone}
+              // value={formState.phone}
               onChange={handleInputChange}
               className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-6 transition-colors duration-200 ease-in-out form-input"
             />
@@ -93,7 +93,7 @@ const ContactUs = () => {
               type="email"
               id="email"
               name="email"
-              value={formState.email}
+              // value={formState.email}
               onChange={handleInputChange}
               className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-6 transition-colors duration-200 ease-in-out form-input"
             />
@@ -105,12 +105,12 @@ const ContactUs = () => {
             <textarea
               id="message"
               name="message"
-              value={formState.message}
+              // value={formState.message}
               onChange={handleInputChange}
               className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-24 text-base outline-none text-gray-700 py-2 px-4 resize-none leading-6 transition-colors duration-200 ease-in-out form-input"
             ></textarea>
           </div>
-          <button onClick= {handleSubmit}className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg w-full">
+          <button onClick={handleSubmit} className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg w-full">
             Submit
           </button>
           <p className="text-xs text-gray-500 mt-3 text-center">
@@ -119,22 +119,22 @@ const ContactUs = () => {
           {/* </Fade> */}
         </div>
         <div className="lg:w-[40%]  md:w-2/3 bg-white rounded-lg p-8 flex flex-col md:ml-auto md:mr-auto w-[60%] mt-10 md:mt-0 relative z-10 shadow-md border-2">
-        
-        <div style={{color:"black"}} className=" h-[50%]  inset-0 bg-gray-300">
-        <iframe
-          width="100%"
-          height="100%"
-          frameBorder="0"
-          marginHeight="0"
-          marginWidth="0"
-          title="map"
-          scrolling="no"
-          src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
-          style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
-        ></iframe>
-      </div>
-      <div className="h-[50%] py-[100px] font-bold"><p>526, FIRST FLOOR, PARMANAND COLONY (WEST) DELHI- 110009
-</p></div>
+          <div style={{ color: "black" }} className="h-[50%] inset-0 bg-gray-300">
+            <iframe
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              marginHeight="0"
+              marginWidth="0"
+              title="map"
+              scrolling="no"
+              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=526%2C%20FIRST%20FLOOR%2C%20PARMANAND%20COLONY%20(WEST)%2C%20DELHI-110009&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+              style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
+            ></iframe>
+          </div>
+
+          <div className="h-[50%] py-[100px] font-bold"><p>526, FIRST FLOOR, PARMANAND COLONY (WEST) DELHI- 110009
+          </p></div>
         </div>
       </div>
     </section>
