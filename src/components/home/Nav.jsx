@@ -61,7 +61,7 @@ export default function Nav() {
 
                   {/* Twitter */}
                   <a
-                    href=""
+                    href="https://twitter.com/Medhanya88248"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white hover:bg-gray-700 hover:text-white rounded-md p-2"

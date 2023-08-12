@@ -129,7 +129,7 @@ const ContactUs = () => {
               title="map"
               scrolling="no"
               src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=526%2C%20FIRST%20FLOOR%2C%20PARMANAND%20COLONY%20(WEST)%2C%20DELHI-110009&ie=UTF8&t=&z=14&iwloc=B&output=embed"
-              style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
+              // style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
             ></iframe>
           </div>
 

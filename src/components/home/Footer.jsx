@@ -1,11 +1,10 @@
 import React from "react";
 import { Email, Phone, LocationOn } from "@mui/icons-material";
 
-
 const Footer = () => {
   const iconStyle = "text-3xl rounded-full border-2 border-black p-2 mb-2 cursor-pointer transition-transform duration-300";
   const logoIconStyle = "text-2.5xl text-blue-500 mb-1 transition-transform duration-300";
-  const locationTextStyle = "text-sm font-normal text-center max-w-md leading-5 capitalize";
+  const locationTextStyle = "text-sm font-bold text-center max-w-md leading-5 capitalize";
 
   const handleIconHover = (event) => {
     event.target.classList.add("scale-125");
@@ -16,66 +15,39 @@ const Footer = () => {
   };
 
   return (
-    <footer className=" min-h-20 bg-gradient-to-r flex flex-col w-full from-cyan-200 to-blue-500  py-5 border-t-[1px]">
+    <footer className="min-h-20 bg-gradient-to-r flex flex-col w-full from-cyan-200 to-blue-400 py-5 border-t-[1px]">
 
-      <div className="flex justify-around flex-col  md:flex-row sm:flex-col space-y-5">
-        <div className="flex flex-col items-center justify-end">
-          <Phone className="ring-2 ring-neutral-100 text-white rounded-full p-1" />
-          <p className="text-[12px] text-gray font-bold">+91- 7982349877</p>
+      <div className="flex justify-around flex-col md:flex-row sm:flex-col space-y-5">
+        <div className="flex flex-col items-center justify-center">
+          <Phone className=" background-red ring-1 ring-neutral-100 text-green-500 rounded-full p-1 mb-1" /> {/* Green color for Phone */}
+          <div className={`text-[12px] text-gray text-center mt-2 ${locationTextStyle}`}>
+           
+          +91- 7982349877
+            </div>
+
+          {/* <p className="text-[12px] text-gray font-bold mt-1">+91- 7982349877</p> */}
         </div>
 
-        <div className="flex flex-col items-center">
-          <LocationOn className="ring-2 ring-neutral-100 text-white rounded-full p-1" />
-          <div className="text-[12px] text-gray font-bold text-center">
+        <div className="flex flex-col items-center justify-center">
+          <LocationOn className="ring-2 ring-neutral-100 text-red-500 rounded-full p-1" /> {/* Blue color for LocationOn */}
+          <div className={`text-[12px] text-gray text-center mt-2 ${locationTextStyle}`}>
             526, FIRST FLOOR, PARMANAND COLONY (WEST) DELHI- 110009
           </div>
         </div>
 
-        <div className="flex flex-col items-center">
-          <Email className="ring-2 ring-neutral-100 text-white rounded-full p-1" />
-          <div className="text-[12px] text-gray font-bold"> info@medhanya.com, medhanya@medhanya.com
-          </div>
-
+        <div className="flex flex-col items-center justify-center">
+          <Email size="large" className="ring-2 ring-neutral-100 text-blue-500 rounded-full p-1" /> {/* Red color for Email */}
+          {/* <div className="text-[12px] text-gray font-bold mt-2">info@medhanya.com</div> */}
+          <div className={`text-[12px] text-gray text-center mt-2 ${locationTextStyle}`}>
+          info@medhanya.com
+           
+            </div>
+          
         </div>
       </div>
-
-      {/* <div className="flex gap-1 flex-col items-center">
-        <p className="text-[12px] text-gray font-bold">Medhanya@2023 text</p>
-      </div> */}
 
     </footer>
   );
 };
 
 export default Footer;
-
-/**
- *     <footer className="mb-8">
-    //   {/* Footer Content */
-    //   <div className="bg-gray-200 text-black p-8 flex justify-between items-center flex-wrap border-t">
-    //     {/* Phone Number */}
-    //     <div className="text-center flex flex-col items-center">
-    //       <Phone className={`${iconStyle} text-red-500`} onMouseEnter={handleIconHover} onMouseLeave={handleIconLeave} />
-    //       <p>+1 (123) 456-7890</p>
-    //     </div>
-
-    //     {/* Location */}
-    //     <div className="text-center flex flex-col items-center">
-    //       <LocationOn className={`${iconStyle} mt-px text-green-500`} onMouseEnter={handleIconHover} onMouseLeave={handleIconLeave} />
-    //       <p className={locationTextStyle}>
-    //         526, FIRST FLOOR,
-    //         <br />
-    //         PARMANAND COLONY (WEST) DELHI- 110009
-    //       </p>
-    //     </div>
-
-    //     {/* Email */}
-    //     <div className="text-center flex flex-col items-center">
-    //       <Email className={`${iconStyle} text-yellow-500`} onMouseEnter={handleIconHover} onMouseLeave={handleIconLeave} />
-    //       <p>contact@example.com</p>
-    //     </div>
-    //   </div>
-    //   <p className="text-center text-xs mt-4">Medhanya@2023</p>
-
-    //   {/* Medhanya@2023 text */}
-    // </footer>
