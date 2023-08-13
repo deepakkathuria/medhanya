@@ -50,7 +50,7 @@ const Footer = () => {
       style={{width:"100%",height:"100%",textAlign:"center",paddingTop:"20px",fontSize:"12px",maxHeight:"90%"}}
       className="flex justify-center items-center text-grey text-sm mt-5 border-white w-2/3">
        
-        &copy; {new Date().getFullYear()} MEDHANYA ENTERPRISE All rights reserved.
+        &copy; {new Date().getFullYear()} MEDHANYA ENTERPRISES all rights reserved.
       </div>
 
     </footer>
