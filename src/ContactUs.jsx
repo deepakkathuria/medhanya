@@ -120,17 +120,16 @@ const ContactUs = () => {
         </div>
         <div className="lg:w-[40%]  md:w-2/3 bg-white rounded-lg p-8 flex flex-col md:ml-auto md:mr-auto w-[60%] mt-10 md:mt-0 relative z-10 shadow-md border-2">
           <div style={{ color: "black" }} className="h-[50%] inset-0 bg-gray-300">
-            <iframe
-              width="100%"
-              height="100%"
-              frameBorder="0"
-              marginHeight="0"
-              marginWidth="0"
-              title="map"
-              scrolling="no"
-              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=526%2C%20FIRST%20FLOOR%2C%20PARMANAND%20COLONY%20(WEST)%2C%20DELHI-110009&ie=UTF8&t=&z=14&iwloc=B&output=embed"
-              // style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
-            ></iframe>
+          <iframe
+  width="100%"
+  height="100%"
+  frameBorder="0"
+  marginHeight="0"
+  marginWidth="0"
+  title="map"
+  scrolling="no"
+  src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=526%2C%20FIRST%20FLOOR%2C%20WEST%20PARMANAND%20COLONY%2C%20DELHI&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+></iframe>
           </div>
 
           <div className="h-[50%] py-[100px] font-bold"><p>526, FIRST FLOOR, PARMANAND COLONY (WEST) DELHI- 110009
