@@ -31,7 +31,7 @@ const Customers = () => {
           }
         `}
       </style>
-      <section className="bg-gradient-to-r from-cyan-200 to-blue-500 py-8 lg:py-20 mx-auto max-w-screen-xl px-4">
+      <section className="bg-gradient-to-r from-cyan-200 to-blue-500 py-8 lg:py-20 px-4">
         <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4 backdrop-blur-sm bg-white/30">
           <h2 className="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-white dark:text-white md:text-4xl">
             YOU’LL BE IN GOOD COMPANY

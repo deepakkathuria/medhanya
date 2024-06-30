@@ -9,8 +9,12 @@ const Vison = React.lazy(() => import("./Vision"));
 import SweetenerDetailPage from "./SweetenerDetailPage";
 import ExcipentDetailPage from "./ExcipentDetailPage";
 import OthersDetailPage from "./OthersDetailPage";
-import AcidityRegulatorDetailPage from "./AcidityRegulatorDetailPage";
-
+import AcidulantsDetailPage from "./AcidulantsDetailPage";
+import ThickenersDetailPage from "./ThicknersDetailPage";
+import AntioxidantsDetailPage from "./AntioxidantsDetailPage";
+import NutritionalSupplementsDetailPage from "./NutritionalSupplementDetailPage";
+import VitaminsDetailPage from "./VitaminsDetailPage";
+import PreservativesDetailPage from "./PreservativeDetailPge";
 
 const App = () => {
   return (
@@ -25,7 +29,12 @@ const App = () => {
           <Route path="/products/Sweeteners" element={<SweetenerDetailPage/>}/>
           <Route path="/products/Excipients" element={<ExcipentDetailPage/>}/>
           <Route path="/products/Others" element={<OthersDetailPage/>}/>
-          <Route path="/products/Acidity Regulators" element={<AcidityRegulatorDetailPage/>}/>
+          <Route path="/products/Acidulants" element={<AcidulantsDetailPage/>}/>
+          <Route path="/products/Thickeners" element={<ThickenersDetailPage/>}/>
+          <Route path="/products/Antioxidants" element={<AntioxidantsDetailPage/>}/>
+          <Route path="/products/Nutritional Supplements" element={<NutritionalSupplementsDetailPage/>}/>
+          <Route path="/products/Vitamins" element={<VitaminsDetailPage/>}/>
+          <Route path="/products/Preservatives" element={<PreservativesDetailPage/>}/>
 
 
 

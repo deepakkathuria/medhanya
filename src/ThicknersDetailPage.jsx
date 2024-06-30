@@ -6,17 +6,37 @@
 
 
 
-// -------------------------new-------------------------------
+
+
+
+
+
+
+
 import React from "react";
 
-const OthersDetailPage = ({ categoryImages, productsData }) => {
+const ThickenersDetailPage = () => {
+  const products = [
+    "Hydroxypropyl Methyl Cellulose (HPMC)",
+    "Microcrystalline Cellulose (MCC)",
+    "Hydroxypropyl Cellulose (HPC)",
+    "Sodium Carboxymethylcellulose (CMC-Na)",
+    "Sodium Alginate",
+    "Calcium Alginate",
+    "Xanthan Gum",
+    "Agar",
+    "Gelatin",
+    "PVPK30",
+    "Cross Povidone"
+  ];
+
   return (
     <div className="bg-gradient-to-r from-cyan-200 to-blue-500 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-2xl mx-auto">
         <img
-          src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1719634736/others_1_cei7ci.webp"
+          src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1719574989/Thickners_3_jdb5cu.webp"
           style={{ height: "350px", width: "800px" }}
-          alt="Others"
+          alt="Thickeners"
           className="w-full h-60 object-cover rounded-lg mb-4"
         />
       </div>
@@ -24,39 +44,26 @@ const OthersDetailPage = ({ categoryImages, productsData }) => {
         <table className="min-w-full divide-y divide-gray-200">
           <tbody className="bg-white divide-y divide-gray-300">
             <tr>
-              <td>Azithromycin</td>
-              <td>Azithromycin Amine</td>
-              <td>Erythromycin</td>
+              {products.slice(0, 3).map((product, index) => (
+                <td key={index} className="text-center py-2">{product}</td>
+              ))}
             </tr>
             <tr>
-              <td>Roxithromycin</td>
-              <td>Clarithromycin</td>
-              <td>Betamethasone</td>
+              {products.slice(3, 6).map((product, index) => (
+                <td key={index} className="text-center py-2">{product}</td>
+              ))}
             </tr>
             <tr>
-              <td>Deaxamethasone</td>
-              <td>Calcium Gluconate</td>
-              <td>Sodium Gluconate</td>
+              {products.slice(6, 9).map((product, index) => (
+                <td key={index} className="text-center py-2">{product}</td>
+              ))}
             </tr>
             <tr>
-              <td>Dicyanamide (DCDA)</td>
-              <td>Sodium Ascorbate</td>
-              <td>Paracetamol</td>
-            </tr>
-            <tr>
-              <td>Alpha Lipoic Acid (ALA)</td>
-              <td>Metronidazole</td>
-              <td>Clavulonate Potassium</td>
-            </tr>
-            <tr>
-              <td>Miglitol</td>
-              <td>Pregabalin</td>
-              <td>Prednisolon</td>
-            </tr>
-            <tr>
-              <td>Collagen</td>
-              <td></td>
-              <td></td>
+              {products.slice(9).map((product, index) => (
+                <td key={index} className="text-center py-2">{product}</td>
+              ))}
+              {products.length % 3 !== 0 && <td className="text-center py-2"></td>}
+              {products.length % 3 === 1 && <td className="text-center py-2"></td>}
             </tr>
           </tbody>
         </table>
@@ -71,7 +78,8 @@ const OthersDetailPage = ({ categoryImages, productsData }) => {
           border-collapse: collapse; /* Collapses border to look cleaner */
         }
 
-        th, td {
+        th,
+        td {
           border: 1px solid black; /* Adds a black border for each cell */
           text-align: center; /* Centers the text in cells */
           padding: 12px; /* Provides padding within cells */
@@ -86,4 +94,4 @@ const OthersDetailPage = ({ categoryImages, productsData }) => {
   );
 };
 
-export default OthersDetailPage;
+export default ThickenersDetailPage;
