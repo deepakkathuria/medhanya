@@ -14,7 +14,7 @@ const OthersDetailPage = ({ categoryImages, productsData }) => {
     <div className="bg-gradient-to-r from-cyan-200 to-blue-500 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-2xl mx-auto">
         <img
-          src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1719634736/others_1_cei7ci.webp"
+          src="https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800749/Others1_muhowi.jpg"
           style={{ height: "350px", width: "800px" }}
           alt="Others"
           className="w-full h-60 object-cover rounded-lg mb-4"

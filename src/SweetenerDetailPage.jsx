@@ -40,7 +40,7 @@ const SweetenerDetailPage = ({ categoryImages, productsData }) => {
             <tr>
               <td>D-Allulose</td>
               <td>Aspartame</td>
-              <td>Fructose Anhydrous/Monohydrate</td>
+              <td>Dextrose</td>
             </tr>
             <tr>
               <td>Sucralose</td>

@@ -92,7 +92,7 @@ const products = [
     name: "Vitamins",
     href: "/products",
     imageSrc:
-      "https://res.cloudinary.com/dqdaz8ni5/image/upload/v1719661151/Vitamin2_klxbb9.webp",
+      "https://res.cloudinary.com/dqdaz8ni5/image/upload/v1719557341/Vitamins_anrh4c.jpg",
   },
   {
     id: 2,
@@ -140,7 +140,7 @@ const products = [
   },
   {
     id: 8,
-    name: "Others",
+    name: "Active Pharmaceutical Ingredients(API'S)",
     href: "/products",
     imageSrc:
       "https://res.cloudinary.com/dqdaz8ni5/image/upload/v1690800749/Others1_muhowi.jpg",

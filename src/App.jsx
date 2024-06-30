@@ -28,7 +28,7 @@ const App = () => {
           <Route path="/vision" element={<Vison />} />
           <Route path="/products/Sweeteners" element={<SweetenerDetailPage/>}/>
           <Route path="/products/Excipients" element={<ExcipentDetailPage/>}/>
-          <Route path="/products/Others" element={<OthersDetailPage/>}/>
+          <Route path="/products/Active Pharmaceutical Ingredients (API's)" element={<OthersDetailPage/>}/>
           <Route path="/products/Acidulants" element={<AcidulantsDetailPage/>}/>
           <Route path="/products/Thickeners" element={<ThickenersDetailPage/>}/>
           <Route path="/products/Antioxidants" element={<AntioxidantsDetailPage/>}/>
